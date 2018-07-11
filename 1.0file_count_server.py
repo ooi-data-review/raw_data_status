@@ -21,7 +21,7 @@ https://github.com/ooi-integration/ingestion-csvs
 
 
 # path to local copy of ingestion-csvs repo
-rootdir = '/Users/leila/Documents/OOI_GitHub_repo/repos/ooi-integration/ingestion-csvs/'
+rootdir = '/Users/leila/Documents/OOI_GitHub_repo/repos/ingestion-csvs/'
 # select the ingestion file example _D00003_ingest.csv or leave it as generic _ingest.csv
 ingestion_file = '_ingest.csv'
 # path to data file on the raw data repo
@@ -32,11 +32,11 @@ splitter_C = '/rsn_data/DVT_Data/'
 splitter_CC = '/RSN/'
 
 # select a site
-site_name = 'Endurance'
+site_name = 'Pioneer'
 # select a platform
-ingest_key = 'CE02SHSM'#'CE02SHBP' #CE01ISSP
+ingest_key = 'CP01CNSM'#'CE02SHBP' #CE01ISSP
 # locate data file
-main = '/Users/leila/Documents/OOI_GitHub_repo/work/ingest-status/' + site_name + '/'
+main = '/Users/leila/Documents/OOI_GitHub_repo/work/ingest-status/file_count/' + site_name + '/'
 
 # create output file
 outputfile = main + ingest_key + '/'
